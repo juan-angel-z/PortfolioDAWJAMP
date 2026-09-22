@@ -3,9 +3,9 @@ Este sera un repositorio para guardar ejercicios del modulo DAW
 
 ## TEMA 1: GITHUB Y MARKDOWN
 
-Enlace a [Diario.md](https://github.com/juan-angel-z/PortfolioDAWJAMP/blob/main/Tema_1:Github-y-Markdown/Diario.md)
+Enlace a [Diario.md](./Tema_1:Github-y-Markdown/Diarios/Diario.md)
 
-Enlace a [Ejercicios.md](https://github.com/juan-angel-z/PortfolioDAWJAMP/blob/main/Tema_1:Github-y-Markdown/Ejercicios.md)
+Enlace a [Ejercicios.md](./Tema_1:Github-y-Markdown/Diarios/Ejercicios.md)
 
 ## TEMA 2
 
