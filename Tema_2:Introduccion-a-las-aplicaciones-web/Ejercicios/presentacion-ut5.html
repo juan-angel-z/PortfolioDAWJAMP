@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio UT5 - Introducción a las aplicaciones web</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #202124;
+      background: #f5f5f5;
+    }
+    main {
+      width: min(1100px, 100%);
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 1.5rem;
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      line-height: 1.25;
+    }
+    .presentation {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgb(0 0 0 / 12%);
+      background: white;
+    }
+    iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .fallback {
+      margin-top: 1rem;
+      color: #555;
+      line-height: 1.5;
+    }
+    a { color: #174ea6; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ejercicio UT5: Introducción a las aplicaciones web</h1>
+    <div class="presentation">
+      <iframe
+        src="https://www.canva.com/design/DAHXQWtoQCU/_DYeTtJyiudhTDsHLrH34w/view?embed"
+        title="Presentación: HTTP, Apache y SSH"
+        loading="lazy"
+        allowfullscreen="allowfullscreen"
+        allow="fullscreen">
+      </iframe>
+    </div>
+    <p class="fallback">
+      Si la presentación no se muestra correctamente,
+      <a href="https://www.canva.com/design/DAHXQWtoQCU/_DYeTtJyiudhTDsHLrH34w/view" target="_blank" rel="noopener noreferrer">ábrela directamente en Canva</a>.
+    </p>
+  </main>
+</body>
+</html>
