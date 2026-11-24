@@ -1,0 +1,28 @@
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias y resultados generados
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs y temporales
+*.log
+tmp/
+temp/

@@ -1,18 +1,15 @@
-# PORTFOLIO
+# Portfolio DAW
 
-Este será un repositorio para guardar ejercicios del módulo DAW.
+Repositorio de actividades y diarios del ciclo de Desarrollo de Aplicaciones Web (DAW).
 
-## TEMA 1: GITHUB Y MARKDOWN
+El contenido está organizado por temas. Dentro de cada tema encontrarás:
+- `Ejercicios.md`: índice con enlaces a las actividades.
+- `Diarios.md`: índice con enlaces a los diarios de reflexión.
+- `Ejercicios/`: memorias, presentaciones, código y evidencias.
+- `Diarios/`: un diario independiente por actividad.
 
-- [Diario.md](./Tema_1:Github-y-Markdown/Diario.md)
-- [Ejercicios.md](./Tema_1:Github-y-Markdown/Ejercicios.md)
+## Temas
 
-## TEMA 2: INTRODUCCIÓN A LAS APLICACIONES WEB
-
-- [Ejercicios.md](./Tema_2:Introduccion-a-las-aplicaciones-web/Ejercicios.md)
-
-## TEMA 3: APACHE
-
-## TEMA 4: TOMCAT
-
-## TEMA 5
+1. [Tema 1: GitHub y Markdown](./Tema_1_GitHub-y-Markdown/README.md)
+2. [Tema 2: Introducción a las aplicaciones web](./Tema_2_Introduccion-a-las-aplicaciones-web/README.md)
+3. [Tema 3: Servidores web](./Tema_3_Servidores-web/README.md)

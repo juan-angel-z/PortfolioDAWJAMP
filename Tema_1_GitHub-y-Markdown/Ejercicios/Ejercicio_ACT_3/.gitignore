@@ -1,0 +1,73 @@
+# ============================================================
+# .gitignore - Gestor de tareas (proyecto Java + documentación)
+# ============================================================
+
+# --- 1. Credenciales y secretos (NUNCA deben subirse) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+secrets.*
+credentials.*
+*.secret
+*.secrets
+
+# --- 2. Configuración local (depende de cada máquina) ---
+config.local.*
+*.local.properties
+local.properties
+application-local.*
+settings.local.json
+
+# --- 3. Binarios y artefactos de compilación (se regeneran) ---
+*.class
+*.jar
+*.war
+*.ear
+*.jmod
+build/
+herramientas/build/
+out/
+target/
+bin/
+
+# --- 4. Ficheros de IDE y editores ---
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+nbbuild/
+nbdist/
+*.code-workspace
+
+# --- 5. Temporales, logs y volcados ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+hs_err_pid*
+*.orig
+*.rej
+
+# --- 6. Ficheros del sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- 7. Evidencias con datos personales (si se guardan en bruto) ---
+evidencias/privado/
